@@ -32,7 +32,7 @@ public class GradesV3 {
 	}
 	
 	public void readFile() {
-		String filePath = "C:\\Data\\Java\\CS\\Jenny\\Email\\Grades.txt";
+		String filePath = "/mnt/c/Sandbox/output_grades/grades.txt";
 		try {
 			FileReader fr = new FileReader(filePath);
 			BufferedReader br = new BufferedReader(fr);
